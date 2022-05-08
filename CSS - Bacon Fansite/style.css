@@ -1,0 +1,16 @@
+h1 {
+    color: cadetblue;
+    font-size:50px;
+}
+
+body{
+    background-image:url(https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg);
+    background-size: cover;
+}
+p {
+    color: red;
+    font-size:30px;
+}
+img:hover{
+    background-color: gold;
+}
