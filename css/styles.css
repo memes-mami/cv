@@ -9,7 +9,11 @@ body {
     margin-bottom:20px;
     margin-left:20px;
     margin-right:20px;
-    }
+    font-family: 'Merriweather', serif;
+    
+}
+    
+    
  hr {
         border-style: none;
         border-top-style: dotted;
@@ -22,8 +26,8 @@ body {
     color: aliceblue; 
 }
 .luffy{
-    border-radius: 500px;
-    border-width: 3x;
+    border-radius: 50px;
+    border-width: 3px;
     border-style: dashed;
     border-color: gold;
     background-size: cover;
@@ -31,16 +35,116 @@ body {
 }
 
 h1 {
-    color:rgb(6, 253, 237);
+    color:#66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size:4.6rem;
+    margin: auto auto 0px auto;
+    line-height: 2;
+    
 }
 h2 {
-    color: darksalmon;
+    color:#66BFBF;
+    font-weight: normal;
 }
-div {
+.div1, .div2 {
     background-color:rgba(240, 198, 113, 0.5);
-    
-    background-blend-mode: overlay;
-    width:100%;
-    height:360px;
+    text-align: center;
+
 }
 
+.codeee{
+    text-decoration: underline;
+}
+.moun{
+    width: 400px;
+    height: 200px;
+    border-radius:500px;
+   
+    margin-left:30px;
+    
+   
+}
+.newdiv{
+    background-color:rgba(243, 52, 84, 0.5);
+    padding-top: 20px;
+    text-align: center;
+
+}
+.pro
+{
+ font-size:2rem;
+}
+.sui{
+    position: relative;
+    margin-bottom:100px;
+    margin-left:10px ;
+    width:50%;
+  
+}
+.middle-container{
+    background-color:rgba(239, 237, 250, 0.4);
+}
+.h12{
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.ballu{
+    width: 120px;
+    float: right;
+    padding-top:50px;
+    padding-right:30px;
+}
+.hack{
+    width: 120px;
+    float: left;
+    padding-top:30px;
+    padding-right:30px;
+}
+.bottom-container{
+    margin-top: 50px;
+     /*background-color:rgba(119, 251, 180, 0.5); */
+    
+}
+h3{
+    color:#11999E;
+}
+a{
+    color:#11999E;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height:2;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .contact-me{
+      text-align: center;
+  }
