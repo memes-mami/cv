@@ -13,7 +13,6 @@
     background-size: cover;
     }
     div{
-       
         width:80%;
         height:60px;
         background-color:rgba(167, 244, 116, 0.5)
@@ -26,24 +25,24 @@
 </style>
 <body>
     <div>
-<form>
-    <label for="pswd"><p class="text">Enter your password:</p> </label>
-    <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();" />
-</form>
-</div>
-<!--Function to check password the already set password is admin-->
-<script type="text/javascript">
-    function checkPswd() {
-        var confirmPassword = "mohiniharsha";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="main.html";
+        <form>
+            <label for="email"><p class="text">Enter your email:</p></label>
+            <input type="email" id="email">
+            <input type="button" value="Submit" onclick="checkEmail();" />
+        </form>
+    </div>
+    <!--Function to check email format, accepts emails of format *@student.nitandhra.ac.in-->
+    <script type="text/javascript">
+        function checkEmail() {
+            var emailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            var email = document.getElementById("email").value;
+            if (email.match(emailFormat) && email.endsWith('@student.nitandhra.ac.in')) {
+                window.location="main.html";
+            }
+            else{
+                alert("Invalid email format or domain. Please enter a valid *@student.nitandhra.ac.in email.");
+            }
         }
-        else{
-            alert("Passwords do not match.");
-        }
-    }
-</script>
+    </script>
 </body>
 </html>
